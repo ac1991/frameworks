@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/av" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/compile/libbcc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/compile/mclinker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/compile/slang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data-binding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/minikin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/multidex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/native" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/bitmap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/bluetooth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/calendar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/chips" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/colorpicker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/datetimepicker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/emoji" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/inputconnectioncommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/inputmethodcommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/net/ethernet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/net/ims" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/net/voip" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/net/wifi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/photoviewer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/setupwizard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/telephony" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/timezonepicker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opt/vcard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/support" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/volley" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wilhelm" vcs="Git" />
+  </component>
+</project>

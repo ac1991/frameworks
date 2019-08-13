@@ -1,0 +1,47 @@
+import android.support.LibraryGroups
+import android.support.LibraryVersions
+
+plugins {
+    id("SupportAndroidLibraryPlugin")
+}
+
+dependencies {
+    api project(':support-annotations')
+    api project(':support-compat')
+    api project(':support-core-ui')
+
+    androidTestImplementation libs.test_runner,      { exclude module: 'support-annotations' }
+    androidTestImplementation libs.espresso_core,    { exclude module: 'support-annotations' }
+    androidTestImplementation libs.mockito_core,     { exclude group: 'net.bytebuddy' } // DexMaker has it"s own MockMaker
+    androidTestImplementation libs.dexmaker_mockito, { exclude group: 'net.bytebuddy' } // DexMaker has it"s own MockMaker
+    androidTestImplementation libs.junit
+    androidTestImplementation project(':support-testutils')
+
+    testImplementation libs.junit
+    testImplementation libs.mockito_core
+    testImplementation libs.test_runner, { exclude module: 'support-annotations' }
+}
+
+android {
+    defaultConfig {
+        minSdkVersion 14
+    }
+
+    sourceSets {
+        main.res.srcDirs 'res', 'res-public'
+    }
+
+    buildTypes.all {
+        consumerProguardFiles 'proguard-rules.pro'
+    }
+}
+
+supportLibrary {
+    name = "Android Support RecyclerView v7"
+    publish = true
+    mavenVersion = LibraryVersions.SUPPORT_LIBRARY
+    mavenGroup = LibraryGroups.SUPPORT
+    inceptionYear = "2014"
+    description = "Android Support RecyclerView v7"
+    legacySourceLocation = true
+}
